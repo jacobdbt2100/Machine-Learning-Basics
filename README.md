@@ -12,7 +12,7 @@ It’s important in data analysis and machine learning because many statistical 
 
 ## Types of Machine Learning
 - Supervised: Predict output using labelled data (e.g., Linear Regression, Logistic Regression, Random Forest, SVM, XGBoost)
-  > Example tasks: Classification, Regression
+  > **Example tasks**: Classification, Regression
 - Unsupervised: Discover patterns from unlabelled data (e.g., K-Means, Hierarchical Clustering, PCA)
-  > Example tasks: Clustering, Dimensionality Reduction
+  > **Example tasks**: Clustering, Dimensionality Reduction
 - Semi-supwervised: Use small labelled + large unlabelled data
