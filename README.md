@@ -16,3 +16,16 @@ It’s important in data analysis and machine learning because many statistical 
 - Unsupervised: Discover patterns from unlabelled data (e.g., K-Means, Hierarchical Clustering, PCA)
   > **Example tasks**: Clustering, Dimensionality Reduction
 - Semi-supwervised: Use small labelled + large unlabelled data
+
+## Normalization vs Standardization
+> `Normalisation` rescales data to a fixed range; `Standardization` rescales data to have a fixed mean and variance. Choose based on algorithm assumptions and feature scale sensitivity.
+
+| Feature      | **Normalization**                      | **Standardization**     |
+| ------------ | -------------------------------------- | ----------------------- |
+| Purpose      | Scale to a fixed range                 | Scale to mean 0, std 1  |
+| Formula      | (x − min) / (max − min)                | (x − μ) / σ             |
+| Output Range | Usually 0–1                            | No fixed range          |
+| Distribution | Preserved                              | Centered & rescaled     |
+| Outliers     | Highly sensitive                       | Moderately sensitive    |
+| Best For     | Distance-based & neural network models | Linear models, PCA, SVM |
+
