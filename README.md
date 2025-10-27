@@ -8,4 +8,6 @@ It’s important in data analysis and machine learning because many statistical 
 
 **Overfitting**: occurs when a model is too complex and performs too well.
 
+**Confusion Matrix**: a table used to evaluate the performance of a classification model showing the true positives, true negatives, false positives, and false negatives.
+
 
