@@ -10,4 +10,9 @@ It’s important in data analysis and machine learning because many statistical 
 
 **Confusion Matrix**: a table used to evaluate the performance of a classification model showing the true positives, true negatives, false positives, and false negatives.
 
-
+## Types of Machine Learning
+- Supervised: Predict output using labelled data (e.g., Linear Regression, Logistic Regression, Random Forest, SVM, XGBoost)
+  > Example tasks: Classification, Regression
+- Unsupervised: Discover patterns from unlabelled data (e.g., K-Means, Hierarchical Clustering, PCA)
+  > Example tasks: Clustering, Dimensionality Reduction
+- Semi-supwervised: Use small labelled + large unlabelled data
